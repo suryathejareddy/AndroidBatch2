@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="i am always angry"
+        android:textSize="50dp"
+        android:textColor="#009688"
+        android:background="#2B291D"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="like the old man said together"
+        android:textSize="50dp"
+        android:textColor="#E7281A"
+        android:background="#FFEB3B"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#F3215C"
+        android:background="#03A9F4"
+        android:text=" bring me thanos"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avengers assemble"
+        android:textColor="#F3215C"
+        android:background="#1538F3"
+
+        android:textSize="50dp"/>
+
+
+</LinearLayout>

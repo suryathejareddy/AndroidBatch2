@@ -19,7 +19,7 @@
         android:textSize="25dp"/>
 
   <EditText
-      android:id="@+id/editText"
+      android:id="@+id/etname"
       android:layout_width="236dp"
       android:layout_height="match_parent"
       android:inputType="textPersonName"
@@ -38,7 +38,7 @@
       android:textSize="25dp"/>
 
   <EditText
-      android:id="@+id/editText2"
+      android:id="@+id/etrollno"
       android:layout_width="236dp"
       android:layout_height="match_parent"
       android:inputType="textPersonName"
@@ -56,7 +56,7 @@
       android:hint=" Enter Department"
       android:textSize="25dp"/>
   <EditText
-      android:id="@+id/editText3"
+      android:id="@+id/etdepartment"
       android:layout_width="236dp"
       android:layout_height="match_parent"
       android:inputType="textPersonName"
@@ -74,7 +74,7 @@
       android:hint="ContactNo"
       android:textSize="25dp"/>
   <EditText
-      android:id="@+id/editText4"
+      android:id="@+id/etcontactno"
       android:layout_width="236dp"
       android:layout_height="match_parent"
       android:textSize="25dp"
@@ -92,7 +92,7 @@
       android:hint="Enter your Mail"
       android:textSize="25dp"/>
   <EditText
-      android:id="@+id/editText5"
+      android:id="@+id/etmail"
       android:layout_width="236dp"
       android:layout_height="match_parent"
       android:hint="Email"
@@ -111,7 +111,7 @@
       android:textSize="25dp"/>
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/etusername"
         android:layout_width="236dp"
         android:layout_height="match_parent"
         android:hint="username"
@@ -130,7 +130,7 @@
       android:textSize="25dp"/>
 
   <EditText
-      android:id="@+id/editText7"
+      android:id="@+id/etpassword"
       android:layout_width="236dp"
       android:layout_height="match_parent"
      android:hint="Password"
@@ -139,9 +139,11 @@
 </LinearLayout>
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/bt"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
       android:text="Button" />
 </LinearLayout>
 

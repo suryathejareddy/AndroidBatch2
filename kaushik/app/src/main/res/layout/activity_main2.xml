@@ -19,7 +19,7 @@
         android:textSize="30dp" />
 
     <EditText
-
+android:id="@+id/etname"
         android:layout_width="221dp"
         android:layout_height="wrap_content"
         android:textSize="30dp"
@@ -38,6 +38,7 @@
         android:textSize="30dp"/>
 
     <EditText
+        android:id="@+id/etrollno"
         android:layout_width="221dp"
         android:layout_height="wrap_content"
         android:hint="enter roll no."
@@ -56,6 +57,7 @@
             android:text="age"
             android:textSize="30dp" />
     <EditText
+        android:id="@+id/etage"
         android:layout_width="221dp"
         android:layout_height="wrap_content"
         android:hint=" enter age."
@@ -77,7 +79,7 @@
             android:textSize="30dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etemailid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="enter emailid"
@@ -99,7 +101,7 @@ android:orientation="horizontal">
     android:textSize="30dp" />
 
 <EditText
-
+    android:id="@+id/etusername"
     android:layout_width="221dp"
     android:layout_height="wrap_content"
     android:textSize="30dp"
@@ -118,7 +120,7 @@ android:orientation="horizontal">
     android:textSize="30dp" />
 
 <EditText
-    android:id="@+id/editText"
+    android:id="@+id/etpassword"
     android:layout_width="221dp"
     android:layout_height="wrap_content"
     android:textSize="30dp"
@@ -127,7 +129,7 @@ android:orientation="horizontal">
 </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="register" />

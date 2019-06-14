@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0707db0-827b-486c-bee6-a0f6cc0878dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kaushik/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaushik/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaushik/app/src/main/res/layout/activity_main3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaushik/app/src/main/res/layout/activity_main5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaushik/app/src/main/res/layout/content_main4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaushik/app/src/main/res/layout/activity_main5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kaushik/app/src/main/res/layout/activity_main5.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +24,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.iml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -46,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-21" />
     <option name="y" value="333" />
     <option name="width" value="1890" />
@@ -58,6 +54,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,7 +76,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,8 +170,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />

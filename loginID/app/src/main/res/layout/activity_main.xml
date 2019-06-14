@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Main5Activity">
+    tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,11 +18,12 @@
             android:text="Name:"
             android:textSize="30dp" />
 
-        <TextView
-android:id="@+id/tvname"
+        <EditText
+            android:id="@+id/etname"
             android:layout_width="221dp"
             android:layout_height="wrap_content"
             android:textSize="30dp"
+            android:hint="Enter Name"
             android:inputType="textPersonName" />
     </LinearLayout>
     <LinearLayout
@@ -36,10 +37,11 @@ android:id="@+id/tvname"
             android:text="roll no.:"
             android:textSize="30dp"/>
 
-        <TextView
-            android:id="@+id/tvrollno"
+        <EditText
+            android:id="@+id/etrollno"
             android:layout_width="221dp"
             android:layout_height="wrap_content"
+            android:hint="enter roll no."
             android:inputType="number"
             android:textSize="30dp" />
     </LinearLayout>
@@ -54,10 +56,11 @@ android:id="@+id/tvname"
             android:layout_height="wrap_content"
             android:text="age"
             android:textSize="30dp" />
-        <TextView
-            android:id="@+id/tvage"
+        <EditText
+            android:id="@+id/etage"
             android:layout_width="221dp"
             android:layout_height="wrap_content"
+            android:hint=" enter age."
             android:inputType="number"
             android:textSize="30dp" />
     </LinearLayout>
@@ -75,11 +78,11 @@ android:id="@+id/tvname"
             android:text="emailid"
             android:textSize="30dp" />
 
-        <TextView
-            android:id="@+id/tvmailid"
+        <EditText
+            android:id="@+id/etemailid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:hint="enter emailid"
             android:textSize="30dp"
             android:inputType="textEmailAddress" />
 
@@ -97,14 +100,15 @@ android:id="@+id/tvname"
             android:text=" User Name:"
             android:textSize="30dp" />
 
-        <TextView
-android:id="@+id/tvusername"
+        <EditText
+            android:id="@+id/etusername"
             android:layout_width="221dp"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-    />
+            android:hint="Enter UserName"
+            android:inputType="text" />
     </LinearLayout>
-    <LinearLayout
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
@@ -116,12 +120,19 @@ android:id="@+id/tvusername"
         android:text="password:"
         android:textSize="30dp" />
 
-    <TextView
-        android:id="@+id/tvpassword"
+    <EditText
+        android:id="@+id/etpassword"
         android:layout_width="221dp"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        />
-
+        android:hint="Enter password"
+        android:inputType="textPassword" />
 </LinearLayout>
-     </LinearLayout>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register" />
+</LinearLayout>
+

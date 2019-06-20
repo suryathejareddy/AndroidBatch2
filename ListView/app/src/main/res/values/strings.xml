@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string-array name="myfrnds">
+        <item>PRASAD</item>
+        <item>CHINNI</item>
+        <item>KRANTHI</item>
+        <item>SRINATH</item>
+        <item>LAHARI</item>
+        <item>SUMAN</item>
+    </string-array>
+</resources>

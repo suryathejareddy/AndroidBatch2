@@ -16,6 +16,8 @@ TextView t;
         setContentView(R.layout.activity_main);
         r=findViewById(R.id.rdgrp);
         t=findViewById(R.id.tv);
+
+
         r.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {

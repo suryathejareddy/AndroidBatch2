@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Surya</item>
+        <item>Prasad</item>
+        <item>Kaushik</item>
+        <item>Srinath</item>
+    </string-array>
+</resources>
